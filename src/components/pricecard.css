@@ -1,0 +1,47 @@
+/* src/components/PriceCard.css */
+
+.price-card {
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    max-width: 300px;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+  }
+  
+  .price-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .price-card h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+  }
+  
+  .price-card p {
+    font-size: 1em;
+    margin-bottom: 16px;
+    
+  }
+  
+  .price-card .price {
+    font-size: 1.25em;
+    font-weight: bold;
+    margin-bottom: 16px;
+  }
+  
+  .price-card button {
+    background-color: #2859a7;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+  }
+  
+  .price-card button:hover {
+    background-color: #213288;
+  }
