@@ -12,7 +12,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>react price card</h1>
+        <h1>reactprice PriceCard</h1>
         <PriceCard 
           name="Product Name"
           price={29.99}
